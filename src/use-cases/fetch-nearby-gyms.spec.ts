@@ -13,7 +13,7 @@ describe('Fetch Nearby Gyms Use Case', () => {
     sut = new FetchNearbyGymsUseCase(gymsRepository)
   })
 
-  it.only('should be able to fetch nearby gyms', async () => {
+  it('should be able to fetch nearby gyms', async () => {
     await gymsRepository.create({
       title: 'Near Gym',
       description: null,
