@@ -6,5 +6,5 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   dts: true,
   clean: true,
-  ignoreWatch: ['**/*.spec.ts'],
+  ignoreWatch: ['src/**/*.spec.ts'],
 })
